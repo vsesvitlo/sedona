@@ -27,34 +27,44 @@
 		  <div class="left-selection">
 		    <div class="infrastructure">Infrastructure
 		      <form>
-			   <span class="checkmark"></span>
-               <label class="waterpool">Waterpool
-			   <input type="checkbox" name="infrastructure" id="waterpool"><br>
-			   </label>
-               <label class="parking">Parking
-                 <input type="checkbox" name="infrastructure" id="parking"><br>
-				 <span class="checkmark"></span>
-			  </label>
-              <label class="Wi-Fi">Wi-Fi
-                <input type="checkbox" name="infrastructure" id="Wi-Fi"><br><br>
-				<span class="checkmark"></span>
-			  </label>
+			   <!--span class="checkmark"></span-->
+			   <ul class="infrastructure-checkbox">
+			   <li><input type="checkbox" name="infrastructure" id="waterpool">
+				   <label class="waterpool">Waterpool
+			       </label>
+			   </li>
+               <li>
+                 <input type="checkbox" name="infrastructure" id="parking">
+				 <label class="parking">Parking
+				 </label>
+               </li>
+               <li>
+                <input type="checkbox" name="infrastructure" id="Wi-Fi">
+				<label class="Wi-Fi">Wi-Fi
+			    </label>
+			   </li>
+               </ul>
               </form>
 		  </div>
           <div class="property-type">Property type
 		      <form>
-               <label class="hotel">Hotel
-                 <input type="checkbox" name="property-type" id="hotel"><br>
-				 <span class="checkmark"></span>
-			   </label>
-               <label class="motel">Motel
-                 <input type="checkbox" name="property-type" id="motel"><br>
-				 <span class="checkmark"></span>
-			   </label>
-              <label class="apartments">Apartments
-                <input type="checkbox" name="property-type" id="apartments"><br><br>
-				<span class="checkmark"></span>
-			  </label>
+               <ul class="property-checkbox">
+			   <li>
+                 <input type="checkbox" name="property-type" id="hotel">
+				 <label class="hotel">Hotel
+				 </label>
+               </li>
+               <li>
+                 <input type="checkbox" name="property-type" id="motel">
+				 <label class="motel">Motel
+				 </label>
+			   </li>
+               <li> 
+                 <input type="checkbox" name="property-type" id="apartments">
+				 <label class="apartments">Apartments
+				 </label>
+			   </li>
+               </ul>
               </form>
           </div>
 		  </div>
