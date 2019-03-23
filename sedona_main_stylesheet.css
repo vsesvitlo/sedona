@@ -107,18 +107,71 @@ p{
 }
 
 .photo{
- display: flex;
  content: '';
  width: 1200px;
  height: 800px;
  background-image: url("img/background_photo.png");
+ margin: -12px 0 0 0;
+}
+
+.phrase_photo{
+ /*display: flex;*/
+ content: '';
+ width: 1200px;
+ height: 800px;
+ margin: 0;
+ padding: 0;
+ list-style: none;	
+}
+
+.phrase_welcome{
+ content: '';
+ width: 186px;
+ height: 45px;
+ background-image: url("img/phrase_welcome.png");
+ margin: auto;
+}
+
+.phrase_to_the_gorgeous{
+ content: '';
+ width: 176px;
+ height: 60px;
+ background-image: url("img/phrase_to_the_gorgeous.png");
+ margin: auto;
+}
+
+.phrase_sedona{
+ content: '';
+ width: 458px;
+ height: 78px;
+ background-image: url("img/phrase_sedona.png");
+ margin: auto;
+}
+
+.phrase_because{
+ content: '';
+ width: 296px;
+ height: 80px;
+ background-image: url("img/phrase_because.png");
+ margin: auto;
+}
+
+.white_line{
+ display: flex;
+ content: '';
+ width: 1200px;
+ height: 57px;
+ background-image: url("img/white_line.png");
+ margin: -373px 0 0 0;
+ background-color: green;
 }
 
 .slogan{
  display: flex;
+ content: '';
  width: 1200px;
  height: 216px;
- background-color: #FFFFFF;
+ background-color: red;
  margin: -216px 0 0 0;
 }
 
@@ -294,6 +347,13 @@ p{
  background-color: #FFFFFF;
  color: #000000;
  margin: auto;
+}
+
+.list_form{
+ content: '';
+ margin: 0;
+ padding: 0;
+ list-style: none;	
 }
 
 .search{
