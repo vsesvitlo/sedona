@@ -17,19 +17,21 @@
 h2{
  font-size: 21px;
  font-weight: bold;
- margin: 0;
  margin-block-start: 0px;
  margin-block-end: 0px;
  margin-inline-start: 0px;
  margin-inline-end: 0px;
+ margin: 15px auto 15px auto;
+ text-align: center;
 }
 
 p{
- margin: 0;
+ text-align: center;
  margin-block-start: 0em;
  margin-block-end: 0em;
  margin-inline-start: 0px;
  margin-inline-end: 0px;
+ margin: 10px auto 10px auto;
 }
 
  @media{min-width: 768px;
@@ -99,45 +101,66 @@ p{
  margin: 0 auto auto auto;
  align-content: center;
 }
-
+/*
 .welcome{
  width: 1200px;
- height: 800px;
+ /*height: 720px;
  content: '';
-}
+}*/
 
 .photo{
  content: '';
  width: 1200px;
- height: 800px;
+ height: 720px;
  background-image: url("img/background_photo.png");
- margin: -12px 0 0 0;
+ margin: -13px 0 0 0;
 }
 
 .phrase_photo{
- /*display: flex;*/
+ display: flex;
  content: '';
  width: 1200px;
- height: 800px;
- margin: 0;
- padding: 0;
- list-style: none;	
+ height: 447px;
 }
+
+.photo-center{
+ content: '';
+ width: 1200px;
+ /*background-color: red;*/
+ align-content: space-between;
+ margin: auto;
+}
+
+/*
+.phrase_photo li{
+ align-content: center;
+}*/
 
 .phrase_welcome{
  content: '';
  width: 186px;
  height: 45px;
  background-image: url("img/phrase_welcome.png");
- margin: auto;
+ background-repeat: no-repeat;
+ margin: auto auto 10px auto;
 }
 
 .phrase_to_the_gorgeous{
  content: '';
  width: 176px;
- height: 60px;
+ height: 30px;
  background-image: url("img/phrase_to_the_gorgeous.png");
+ background-repeat: no-repeat;
  margin: auto;
+}
+
+.line_to_the_gorgeous{
+ content: '';
+ width: 256px;
+ height: 2px;
+ background-image: url("img/line_gorgeous.png");
+ background-repeat: no-repeat;
+ margin: -20px auto auto auto;;
 }
 
 .phrase_sedona{
@@ -145,7 +168,8 @@ p{
  width: 458px;
  height: 78px;
  background-image: url("img/phrase_sedona.png");
- margin: auto;
+ background-repeat: no-repeat;
+ margin: 50px auto 50px auto;
 }
 
 .phrase_because{
@@ -153,6 +177,7 @@ p{
  width: 296px;
  height: 80px;
  background-image: url("img/phrase_because.png");
+ background-repeat: no-repeat;
  margin: auto;
 }
 
@@ -162,8 +187,7 @@ p{
  width: 1200px;
  height: 57px;
  background-image: url("img/white_line.png");
- margin: -373px 0 0 0;
- background-color: green;
+ margin: 0;
 }
 
 .slogan{
@@ -171,8 +195,8 @@ p{
  content: '';
  width: 1200px;
  height: 216px;
- background-color: red;
- margin: -216px 0 0 0;
+ background-color: #ffffff;
+ margin: 0;/*auto*/
 }
 
 .center-slogan{
@@ -216,6 +240,13 @@ p{
 .text_advantages{
  display: flex;
  justify-content: center;
+}
+ p.text_advantages{
+ display: flex;
+ width: 330px;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
 }
 
 .advantages_center{
@@ -282,6 +313,7 @@ p{
  height: 80px;
  content: ''; 
  justify-content: center;
+ margin: 15px auto 15px auto;
 }
 
 .souvenir-image{
@@ -342,19 +374,30 @@ p{
 
 
 .form_Sedona{
+ display: flex;
  width: 458px;
  height: 175px;
  background-color: #FFFFFF;
  color: #000000;
  margin: auto;
+ 
 }
 
 .list_form{
  content: '';
- margin: 0;
+ margin: auto;
  padding: 0;
  list-style: none;	
+
 }
+
+.list_form li{
+ display: flex;
+ width: 458px;
+ justify-content: space-between;
+ margin: 15px auto 15px auto;
+}
+
 
 .search{
  display: flex;
