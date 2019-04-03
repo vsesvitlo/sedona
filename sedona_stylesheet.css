@@ -28,6 +28,11 @@ p{
  margin: 5px 0 10px 0;
 }
 
+button{
+ background-color: transparent;
+ color: #ffffff;
+}
+
  @media{min-width: 768px;
 }
 
@@ -180,6 +185,7 @@ p{
 }
 
 .wide{
+ display: flex;
  width: 314px;
  height: 32px;
  border: 2px solid #ffffff;
@@ -190,11 +196,28 @@ p{
  justify-content: center;
 }
 
+.line-center{
+ content: '';
+ width: 2px;
+ height: 22px;
+ background-color: #ffffff;
+ margin: auto;
+}
+
+.wide-min, 
+.wide-max{
+ width: 157px;
+ display: flex;
+ justify-content: center;
+ margin: auto;
+}
+
 .show{
  display: flex;
  width: 133px;
  height: 32px;
  /*color: #ffffff;*/
+ background-color: default;
  border: 2px solid #ffffff;
  padding: 0;
  text-transform: uppercase;
@@ -221,6 +244,7 @@ p{
  height: 32px;
  display: flex;
  justify-content: center;
+ margin: auto;
 }
 
 .results{
